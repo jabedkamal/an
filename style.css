@@ -1,0 +1,16 @@
+.details {
+		margin: 50px auto;
+		max-width: 500px;
+		padding: 20px;
+		background-color: #fff;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+		border-radius: 5px;
+	}
+
+	.details p {
+		margin: 0 0 20px 0;
+	}
+
+	.label {
+		font-weight: bold;
+	}
