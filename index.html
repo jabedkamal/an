@@ -1,42 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Simple Website</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+	<title>My Social Media Links</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f5f5f5;
+		}
+
+		h1 {
+			text-align: center;
+			color: #333;
+			margin-top: 50px;
+		}
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			text-align: center;
+		}
+
+		li {
+			display: inline-block;
+			margin: 0 10px;
+		}
+
+		a {
+			display: block;
+			width: 50px;
+			height: 50px;
+			background-color: #333;
+			border-radius: 50%;
+			line-height: 50px;
+			color: #fff;
+			font-size: 24px;
+			text-align: center;
+			transition: all 0.3s ease;
+		}
+
+		a:hover {
+			transform: scale(1.2);
+		}
+
+		.facebook {
+			background-color: #3b5998;
+		}
+
+		.twitter {
+			background-color: #1da1f2;
+		}
+
+		.instagram {
+			background-color: #e4405f;
+		}
+
+		.youtube {
+			background-color: #cd201f;
+		}
+	</style>
 </head>
 <body>
-	<header>
-		<h1>Welcome to My Simple Website</h1>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-	
-	<main>
-		<section>
-			<h2>About Me</h2>
-			<p>Insert your content here.</p>
-		</section>
-		
-		<section>
-			<h2>Contact Me</h2>
-			<form action="#" method="POST">
-				<label for="name">Name:</label>
-				<input type="text" id="name" name="name" required><br><br>
-				<label for="email">Email:</label>
-				<input type="email" id="email" name="email" required><br><br>
-				<label for="message">Message:</label>
-				<textarea id="message" name="message" required></textarea><br><br>
-				<input type="submit" value="Send">
-			</form>
-		</section>
-	</main>
-	
-	<footer>
-		<p>&copy; 2023 My Simple Website</p>
-	</footer>
+	<h1>My Social Media Links</h1>
+	<ul>
+		<li><a href="https://www.facebook.com/jabedkamaljoy" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+		<li><a href="https://www.twitter.com/jabedkamaljoy" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a></li>
+		<li><a href="https://www.instagram.com/jabedkamaljoy" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a></li>
+		<li><a href="https://www.youtube.com/channel/UCNj5h0J1KfOSt2D87dN5LvA" target="_blank" class="youtube"><i class="fab fa-youtube"></i></a></li>
+	</ul>
 </body>
 </html>
